@@ -1,5 +1,5 @@
-require(["jQuery"], function($) {
-    $(function() {
+require(['gitbook', 'jQuery'], function(gitbook, $) {
+    gitbook.events.bind('page.change', function() {
         // Find summary items that have an inactive title (span) and subitems (ul)
         $('ul.summary li>span+ul').prev().css({
             // Make the span fully opaque and show as clickable
