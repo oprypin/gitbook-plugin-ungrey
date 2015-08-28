@@ -1,0 +1,21 @@
+{
+    "name": "gitbook-plugin-ungrey",
+    "version": "1.0.0",
+    "description": "Make chapters without an index page clickable instead of grey/disabled",
+    "author": "Oleh Prypin <blaxpirit@gmail.com>",
+    "license": "MIT",
+
+    "main": "index.js",
+    "engines": {
+        "gitbook": "*"
+    },
+
+    "homepage": "https://github.com/BlaXpirit/gitbook-plugin-ungrey",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlaXpirit/gitbook-plugin-ungrey.git"
+    },
+    "bugs": {
+        "url": "https://github.com/BlaXpirit/gitbook-plugin-ungrey/issues"
+    }
+}
