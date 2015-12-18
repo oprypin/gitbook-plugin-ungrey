@@ -7,7 +7,7 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
             cursor: 'pointer'
         }).click(function() {
             // When the span is clicked, click the first link inside this chapter instead
-            $(this).parent().find('a').first().click();
+            $(this).parent().find('a')[0].click();
         })
     });
 });
